@@ -28,3 +28,260 @@ Summary:
 Type I Error (α): Rejecting H₀ when it is true.
 
 Type II Error (β): Failing to reject H₀ when it is false.
+============================
+Hypothesis Testing: An Overview
+Hypothesis testing is a fundamental concept in inferential statistics used to make decisions or draw conclusions about a population based on sample data. It involves comparing a hypothesis (or claim) about a population parameter to the results observed in a sample. The goal is to determine whether the sample data provides enough evidence to support the hypothesis.
+
+Key Components of Hypothesis Testing
+Null Hypothesis (H₀):
+
+The null hypothesis represents the status quo or the default assumption. It is a statement that there is no effect or no difference.
+
+Example: "The average height of men is 5'10"."
+
+Alternative Hypothesis (H₁ or Ha):
+
+The alternative hypothesis is the statement that contradicts the null hypothesis. It represents the effect or difference we are testing for.
+
+Example: "The average height of men is not 5'10"."
+
+Test Statistic:
+
+A test statistic is a value calculated from the sample data that is used to decide whether to reject the null hypothesis.
+
+Example: The sample mean, z-score, t-score, or chi-square statistic.
+
+P-value:
+
+The p-value is the probability of obtaining a test statistic at least as extreme as the one observed, assuming the null hypothesis is true.
+
+If the p-value is less than the significance level (α), we reject the null hypothesis.
+
+Significance Level (α):
+
+The significance level is the threshold that determines whether the p-value is small enough to reject the null hypothesis. Common values are 0.05, 0.01, and 0.10.
+
+Example: If α = 0.05, we reject H₀ if the p-value is less than 0.05.
+
+Decision:
+
+Based on the p-value and the significance level, we make a decision to either reject the null hypothesis or fail to reject it.
+
+If we reject H₀, we conclude that there is enough evidence to support the alternative hypothesis.
+
+If we fail to reject H₀, we conclude that there is not enough evidence to support the alternative hypothesis.
+
+Steps in Hypothesis Testing
+State the Hypotheses:
+
+Formulate the null hypothesis (H₀) and the alternative hypothesis (H₁).
+
+Choose the Test Statistic:
+
+Select an appropriate test statistic based on the type of data and the hypothesis being tested (e.g., z-test, t-test, chi-square test).
+
+Determine the Distribution:
+
+Identify the sampling distribution of the test statistic under the assumption that the null hypothesis is true.
+
+Set the Significance Level (α):
+
+Choose the significance level, typically 0.05, to determine the threshold for rejecting the null hypothesis.
+
+Calculate the Test Statistic and P-value:
+
+Compute the test statistic from the sample data and find the corresponding p-value.
+
+Make a Decision:
+
+Compare the p-value to the significance level. If the p-value is less than α, reject H₀; otherwise, fail to reject H₀.
+
+Draw a Conclusion:
+
+Interpret the results in the context of the problem and state the conclusion.
+================================
+T-Test: An Overview
+A t-test is a statistical test used to determine whether there is a significant difference between the means of two groups. It is particularly useful when the sample size is small (typically less than 30) and the population standard deviation is unknown. The t-test relies on the t-distribution, which is similar to the normal distribution but has heavier tails, making it more appropriate for smaller sample sizes.
+
+Types of T-Tests
+One-Sample T-Test:
+
+Purpose: Compares the mean of a single sample to a known or hypothesized population mean.
+
+Example: Testing whether the average height of a sample of students is significantly different from the national average height.
+
+Independent (or Unpaired) Two-Sample T-Test:
+
+Purpose: Compares the means of two independent groups to determine if they are significantly different from each other.
+
+Example: Comparing the average test scores of two different classes.
+
+Paired (or Dependent) Two-Sample T-Test:
+
+Purpose: Compares the means of two related groups (e.g., before and after measurements) to determine if there is a significant difference.
+
+Example: Testing the effectiveness of a training program by comparing the test scores of the same group of employees before and after the training.
+
+When to Use a T-Test
+Small Sample Size:
+
+When the sample size is small (typically less than 30), the t-test is more appropriate than a z-test because it accounts for the increased uncertainty due to the smaller sample size.
+
+Unknown Population Standard Deviation:
+
+When the population standard deviation is unknown, the t-test uses the sample standard deviation to estimate the population standard deviation.
+
+Normally Distributed Data:
+
+The t-test assumes that the data is approximately normally distributed. If the data is not normally distributed, a non-parametric test (e.g., Mann-Whitney U test) may be more appropriate.
+
+Comparing Means:
+
+The t-test is used when the goal is to compare the means of two groups to determine if they are significantly different.
+===============
+Z-Test: An Overview
+A Z-test is a statistical test used to determine whether there is a significant difference between the means of two groups when the sample size is large (typically greater than 30) and the population standard deviation is known. The Z-test relies on the standard normal distribution (z-distribution), which is a special case of the normal distribution with a mean of 0 and a standard deviation of 1.
+
+Types of Z-Tests
+One-Sample Z-Test:
+
+Purpose: Compares the mean of a single sample to a known or hypothesized population mean.
+
+Example: Testing whether the average height of a sample of students is significantly different from the national average height.
+
+Two-Sample Z-Test:
+
+Purpose: Compares the means of two independent groups to determine if they are significantly different from each other.
+
+Example: Comparing the average test scores of two different classes.
+
+When to Use a Z-Test
+Large Sample Size:
+
+When the sample size is large (typically greater than 30), the Z-test is appropriate because the Central Limit Theorem ensures that the sample means are approximately normally distributed.
+
+Known Population Standard Deviation:
+
+The Z-test requires that the population standard deviation is known. If the population standard deviation is unknown, a t-test is more appropriate.
+
+Normally Distributed Data:
+
+Although the Z-test is robust to deviations from normality due to the Central Limit Theorem, it is still preferable to have data that is approximately normally distributed.
+====================
+Chi-Square Test: An Overview
+A Chi-Square Test (χ² test) is a statistical test used to determine whether there is a significant association between two categorical variables. It is based on the chi-square distribution, which is a probability distribution that is often used in hypothesis testing. The chi-square test compares the observed frequencies in a contingency table to the expected frequencies under the assumption of independence.
+
+Types of Chi-Square Tests
+Chi-Square Test for Independence:
+
+Purpose: Tests whether two categorical variables are independent of each other.
+
+Example: Testing whether there is an association between gender and preference for a particular brand.
+
+Chi-Square Goodness-of-Fit Test:
+
+Purpose: Tests whether the observed frequencies fit a specified distribution.
+
+Example: Testing whether the observed frequencies of different colors of candies in a bag match the expected frequencies based on the manufacturer's claims.
+
+When to Use a Chi-Square Test
+Categorical Data:
+
+The chi-square test is used when both variables are categorical (e.g., gender, color, brand).
+
+Independence Testing:
+
+When you want to determine if there is a significant association between two categorical variables.
+
+Goodness-of-Fit Testing:
+
+When you want to test whether the observed frequencies match the expected frequencies under a specified distribution.
+================
+ANOVA: An Overview
+ANOVA (Analysis of Variance) is a statistical method used to compare the means of three or more groups to determine whether at least one group mean is significantly different from the others. ANOVA is particularly useful when you have multiple independent variables (factors) and want to assess their effects on a dependent variable.
+
+Types of ANOVA
+One-Way ANOVA:
+
+Purpose: Compares the means of three or more independent groups based on one factor.
+
+Example: Comparing the average test scores of students from three different schools.
+
+Two-Way ANOVA:
+
+Purpose: Examines the effects of two independent variables (factors) on a dependent variable and their interaction.
+
+Example: Analyzing the effects of both teaching method and gender on students' test scores.
+
+Repeated Measures ANOVA:
+
+Purpose: Compares the means of the same group at different time points or under different conditions.
+
+Example: Testing the effectiveness of a drug by comparing the same group of patients before and after treatment.
+
+When to Use ANOVA
+Multiple Groups:
+
+When you want to compare the means of three or more groups.
+
+Independent Variables:
+
+When you have one or more independent variables (factors) and want to assess their effects on a dependent variable.
+
+Normally Distributed Data:
+
+ANOVA assumes that the data within each group is approximately normally distributed. If the data is not normally distributed, a non-parametric test (e.g., Kruskal-Wallis test) may be more appropriate.
+
+Homogeneity of Variance:
+
+ANOVA assumes that the variances of the groups are equal (homoscedasticity). If this assumption is violated, you may need to use a modified version of ANOVA (e.g., Welch's ANOVA).
+=================
+Assumptions of ANOVA
+Independence:
+
+Observations within each group should be independent of each other. This means that the value of one observation should not influence the value of another.
+
+Normality:
+
+The data within each group should be approximately normally distributed. This assumption can be checked using histograms, Q-Q plots, or statistical tests like the Shapiro-Wilk test.
+
+Homogeneity of Variance (Homoscedasticity):
+
+The variances of the groups should be equal. This can be checked using Levene's test or Bartlett's test.
+
+Random Sampling:
+
+The samples should be randomly selected from the population.
+
+Types of ANOVA
+One-Way ANOVA:
+
+Compares the means of three or more independent groups based on one factor.
+
+Example: Comparing the average test scores of students from three different schools.
+
+Two-Way ANOVA:
+
+Examines the effects of two independent variables (factors) on a dependent variable and their interaction.
+
+Example: Analyzing the effects of both teaching method and gender on students' test scores.
+
+Repeated Measures ANOVA:
+
+Compares the means of the same group at different time points or under different conditions.
+
+Example: Testing the effectiveness of a drug by comparing the same group of patients before and after treatment.
+
+Factorial ANOVA:
+
+Generalizes the two-way ANOVA to include more than two independent variables. It examines the main effects and interactions of multiple factors.
+
+Example: Analyzing the effects of teaching method, gender, and socioeconomic status on students' test scores.
+
+Multivariate ANOVA (MANOVA):
+
+Extends ANOVA to compare multiple dependent variables simultaneously.
+
+Example: Comparing the effects of a treatment on multiple outcomes such as test scores, attendance, and satisfaction.
+
+Each type of ANOVA is designed to address specific research questions and data structures, making it a versatile tool in statistical analysis.
