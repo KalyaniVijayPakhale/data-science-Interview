@@ -11,3 +11,16 @@ Statistics:
     mean of uniform distribution: (a+b)/2
     
     st deviation: summation((x-x^))/N
+
+Percentile: A value below which certain percentage of observation lie.
+np/100
+
+Probability: determine the likelihood of an event
+Addition rule: mutually excusive event
+
+Central Limit Theorem:
+Sampling distribution of mean always be normally distributed, as long as sample size is large enough.
+
+Regardless of whether the population has a normal, poisson, binomial, and other distribution,
+the sampling distribution of the mean will be normal.
+
