@@ -24,3 +24,4 @@ Sampling distribution of mean always be normally distributed, as long as sample 
 Regardless of whether the population has a normal, poisson, binomial, and other distribution,
 the sampling distribution of the mean will be normal.
 
+======================
