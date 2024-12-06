@@ -1,0 +1,13 @@
+Statistics:
+    1. Descriptive: Organizing nad summarizing data
+        Central tendancy - mean, median, mode
+        Measure of dipursion - variance, std deviation\
+
+    2. Inferential: Predict conclusion, inferences using sample data
+        z-test, t-test
+    
+    population and sample
+
+    mean of uniform distribution: (a+b)/2
+    
+    st deviation: summation((x-x^))/N
