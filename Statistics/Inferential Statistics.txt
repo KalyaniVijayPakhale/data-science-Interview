@@ -1,0 +1,30 @@
+Question: Can you explain the difference between a Type I error and a Type II error in hypothesis testing?
+Answer:
+
+In hypothesis testing, we make decisions based on sample data to infer properties of the entire population. There are two types of errors that can occur in this process:
+
+Type I Error (False Positive):
+
+Definition: A Type I error occurs when we reject the null hypothesis (H₀) when it is actually true.
+
+Example: Suppose we are testing whether a new drug is effective in treating a disease. The null hypothesis (H₀) is that the drug has no effect. If we reject H₀ and conclude that the drug is effective when it actually isn't, we have made a Type I error.
+
+Consequence: This error is often considered more serious because it leads to the acceptance of a false claim (e.g., approving a drug that doesn't work).
+
+Control: The probability of making a Type I error is denoted by α (alpha), which is the significance level of the test. By setting α to a lower value (e.g., 0.01 instead of 0.05), we reduce the chance of making a Type I error.
+
+Type II Error (False Negative):
+
+Definition: A Type II error occurs when we fail to reject the null hypothesis (H₀) when it is actually false.
+
+Example: Continuing with the drug example, if we fail to reject H₀ and conclude that the drug is not effective when it actually is, we have made a Type II error.
+
+Consequence: This error means that a true effect is missed (e.g., a potentially effective drug is not approved).
+
+Control: The probability of making a Type II error is denoted by β (beta). The power of the test, which is 1 - β, is the probability of correctly rejecting a false null hypothesis. Increasing the sample size or improving the sensitivity of the test can help reduce β and increase the power of the test.
+
+Summary:
+
+Type I Error (α): Rejecting H₀ when it is true.
+
+Type II Error (β): Failing to reject H₀ when it is false.
