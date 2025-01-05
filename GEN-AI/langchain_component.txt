@@ -1,0 +1,22 @@
+Langchain framework
+
+- Langchain, Langsmith, Langserve
+
+observibility: LangSmith
+
+Deployments: Langserve
+
+Architecture
+1. Chain
+2. Agents
+3. Retrieval Strategies
+
+Langchain community
+
+Model I/O
+Retrieval
+Agent Tooling
+
+Build application with Langchain
+Trace application with LangSmith
+Serve application with LangServe
