@@ -108,7 +108,7 @@ One-Sample T-Test:
 
 Purpose: Compares the mean of a single sample to a known or hypothesized population mean.
 
-Example: Testing whether the average height of a sample of students is significantly different from the national average height.
+Example: Testi ng whether the average height of a sample of students is significantly different from the national average height.
 
 Independent (or Unpaired) Two-Sample T-Test:
 

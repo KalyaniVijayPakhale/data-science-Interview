@@ -1,0 +1,6 @@
+
+Virtual Machine can be installable on any OS, but docker cant 
+
+# docker commands
+
+docker --run -p
