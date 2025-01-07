@@ -1,0 +1,41 @@
+final aim: minimize the cost function
+A cost function is a mathematical function used to measure the error or loss between predicted values and actual values in a machine learning model. The objective is to minimize the cost function during training to improve model performance.
+
+1. mean square error
+2. mean absolute error
+Common Cost Functions and Their Formulas
+Mean Squared Error (MSE)
+
+1. Mean Squared Error (MSE)
+
+Used in regression problems.
+Measures the average squared difference between actual and predicted.
+
+2. Mean Absolute Error (MAE)
+
+Used in regression problems.
+Measures the average absolute difference between actual and predicted values.
+
+4. Cross-Entropy Loss (Log Loss)
+
+Used in classification problems.
+Measures the difference between actual and predicted probabilities for binary or multi-class classification.
+
+5. Hinge Loss
+Used in Support Vector Machines (SVM) for classification.
+
+6. Negative Log-Likelihood (NLL)
+Often used in probabilistic models and classification tasks.
+
+7. Regularized Loss
+
+Combines a loss function with a regularization term to prevent overfitting.
+Example (L2 Regularization):
+
+8. Poisson Loss
+
+Used for count data (e.g., predicting event counts).
+
+9. Cosine Similarity Loss
+
+Measures the cosine distance between actual and predicted vectors.
