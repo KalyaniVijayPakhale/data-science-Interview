@@ -39,3 +39,22 @@ Used for count data (e.g., predicting event counts).
 9. Cosine Similarity Loss
 
 Measures the cosine distance between actual and predicted vectors.
+
+Regression: Use MSE, MAE, or Huber Loss.
+Binary Classification: Use Cross-Entropy Loss or Hinge Loss.
+Multi-Class Classification: Use Cross-Entropy Loss or KL Divergence.
+Count Data: Use Poisson Loss.
+Probabilistic Models: Use Negative Log-Likelihood or KL Divergence.
+
+# performance matrics: 
+R² and Adjusted R²
+# R² = 1 - (sum of square residual)/(sum squared total)
+
+
+Aspect	-- R²	-- Adjusted R²
+Penalization	-- Does not penalize for ov
+Key Differences Between R² and Adjusted R²
+Aspect	-- R²	-- Adjusted R²
+Penalization	-- Does not penalize for overfitting --	Penalizes adding irrelevant features
+Complexity	Simplistic fit measure	Adjusted for predictors and sample size
+Preferred When	Single model evaluation	Comparing models with varying numbers of predictors
