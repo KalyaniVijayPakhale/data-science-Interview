@@ -24,4 +24,24 @@ Sampling distribution of mean always be normally distributed, as long as sample 
 Regardless of whether the population has a normal, poisson, binomial, and other distribution,
 the sampling distribution of the mean will be normal.
 
+
+skewness: Direction of the distribution curve
+left side - Positive
+right side - Negative
+middle - no Skewness
+
+Kurtosis: height of the curve
+
+Independant probability: If two events A & B are set to be Independant if occurance of A doesnt depend on occurance of B 
+
+Conditional Probability: probability of haappening event A depends on probability of happening another evebt b
+P(B/A) = P(A and B)/P(A)
+
+Bayes theorem: 
+P(A/B) = P(A and B)/P(B)
+
+Poison distribution =  if randon varaibale takes value from 0 to infinity
+
+Normal distribution = if its density curve is bell shaped and the curve is symmetric in nature
+
 ======================

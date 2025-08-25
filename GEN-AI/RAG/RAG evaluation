@@ -1,0 +1,5 @@
+Context Precision: focuses on the system’s ability to rank relevant items higher
+
+Context Recall: evaluates how well the system retrieves all relevant parts of the context
+
+Context Relevance: measures the alignment of retrieved information with the user’s query.
